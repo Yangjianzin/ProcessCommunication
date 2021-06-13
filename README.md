@@ -1,6 +1,6 @@
 # Process Communication
 ## Description
-Purpose: Let the two different process to communication.  
+Let the two different process to communication.  
 　 | Process A            (Server) | Process B       (Client)
 ------------- |------------ | -------------        
 Memory Size **\[bytes\]** | 512 | 512    
