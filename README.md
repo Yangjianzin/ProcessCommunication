@@ -11,7 +11,7 @@ Params |  (Func<byte\[\]>,Action<byte\[\]>) | (Action<byte\[\]>, byte\[\])
 Return Type | void | bool
 Running Mode | Loop | Once
 ## Technology
-#### [MemoryMappedFile](https://docs.microsoft.com/en-us/dotnet/api/system.io.memorymappedfiles.memorymappedfile?view=net-5.0 "Title") :According to MemoryMappedFile to communication.
+#### [MemoryMappedFile](https://docs.microsoft.com/en-us/dotnet/api/system.io.memorymappedfiles.memorymappedfile?view=net-5.0 "Title") :According to MemoryMappedFile to share memory.
 ## Environment
 * IDE : **VS2015** 
 * Programming language : **C#**
