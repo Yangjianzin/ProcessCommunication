@@ -58,7 +58,7 @@ public class MemoryMapped
             }
             catch
             {
-                MessageBox.Show(MethodInfo.GetParentInfo(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                //Something Error
             }
         }
         public bool MemoryMappedClientByte(Action<byte[]> ClientRecived, byte[] ClientWrite)
