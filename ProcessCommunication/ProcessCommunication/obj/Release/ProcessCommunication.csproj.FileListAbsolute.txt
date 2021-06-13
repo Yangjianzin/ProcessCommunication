@@ -1,0 +1,5 @@
+C:\Users\Sam\Desktop\GitHub Project\ProcessCommunication\ProcessCommunication\bin\Release\ProcessCommunication.dll
+C:\Users\Sam\Desktop\GitHub Project\ProcessCommunication\ProcessCommunication\bin\Release\ProcessCommunication.pdb
+C:\Users\Sam\Desktop\GitHub Project\ProcessCommunication\ProcessCommunication\obj\Release\ProcessCommunication.csproj.CoreCompileInputs.cache
+C:\Users\Sam\Desktop\GitHub Project\ProcessCommunication\ProcessCommunication\obj\Release\ProcessCommunication.dll
+C:\Users\Sam\Desktop\GitHub Project\ProcessCommunication\ProcessCommunication\obj\Release\ProcessCommunication.pdb
