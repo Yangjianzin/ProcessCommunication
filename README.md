@@ -13,5 +13,5 @@ Running Mode | Loop | Once
 ## Technology
 #### [MemoryMappedFile](https://docs.microsoft.com/en-us/dotnet/api/system.io.memorymappedfiles.memorymappedfile?view=net-5.0 "Title") :According to MemoryMappedFile to share memory.
 ## Environment
-* IDE : **VS2015** 
+* IDE : **Visual Studio 2015** 
 * Programming language : **C#**
