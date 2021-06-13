@@ -6,8 +6,8 @@ Let the two different process to communication.
 Memory Size **\[bytes\]** | 512 | 512    
 Write in Process | A         |       B   
 Receive in Process | B      |       A  
-Function Name | `MemoryMappedServerByte` |   `MemoryMappedClientByte`
-Params |  (Func<byte\[\]>,Action<byte\[\]>) | (Action<byte\[\]>, byte\[\])  
+Function | `ServerCreate` |   `ClientWrite`
+Params |  (Func<byte\[\]>,Action<byte\[\]>) | (byte\[\],Action<byte\[\]>)  
 Return Type | void | bool
 Running Mode | Loop | Once
 ## Technology
