@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.IO;
 using System.IO.MemoryMappedFiles;
 using System.Threading;
 
 namespace ProcessCommunication
 {
-    public class MemoryMapped
+      public class MemoryMapped
     {
         public string mapName = "MAPNAME";
 
@@ -33,14 +33,12 @@ namespace ProcessCommunication
             this.ClientMemorySize = ClientSize;
         }
 
-        public void ServerCreate(Func<byte[]> WriteEvent, Action<byte[]> ReceivedEvent,int LoopDelayTime = 30)
+        public void ServerCreate(Func<byte[]> WriteEvent, Action<byte[]> ReceivedEvent, int LoopDelayTime = 30)
         {
             try
             {
                 using (MemoryMappedFile mmf = MemoryMappedFile.CreateNew(mapName, capacity))
                 {
-                    byte[] Rec_data = null;
-
                     while (true)
                     {
                         //Write Client Process Memory 
@@ -61,11 +59,7 @@ namespace ProcessCommunication
                                 var len = br.ReadInt32();
                                 var data = br.ReadBytes(len);
                                 //Check the recived data is change
-                                if (Rec_data != data)
-                                {
-                                    ReceivedEvent(data);
-                                    Rec_data = data;
-                                }
+                                ReceivedEvent(data);
                             }
                         }
 
