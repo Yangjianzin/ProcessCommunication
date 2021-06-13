@@ -8,7 +8,7 @@ Write in process | A         |       B
 Receive in process | B      |       A  
 Function | MemoryMappedServerByte |   MemoryMappedClientByte
 Params |  (Func<byte\[\]>,Action<byte\[\]>) | (Action<byte\[\]>, byte\[\])  
-Return | void | bool
+Return type | void | bool
 Running Mode | Loop | Once
 ## Technology
 #### [MemoryMappedFile](https://docs.microsoft.com/en-us/dotnet/api/system.io.memorymappedfiles.memorymappedfile?view=net-5.0 "Title") :According to MemoryMappedFile to communication.
