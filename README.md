@@ -67,11 +67,11 @@ Running Mode | Loop | Once
             }
  ```
  ## How to test  
- * Step1.Start Process A  
+ * Step1:Start Process A  
  
- * Step2.Start Process B  
+ * Step2:Start Process B  
  
- * Step3.Console input "Hello"  
+ * Step3:Console input "Hello"  
  
  *Process A*
  ![image](https://user-images.githubusercontent.com/22924622/121806546-df5a8b80-cc82-11eb-88d1-7548adb1edce.png)
