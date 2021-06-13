@@ -16,7 +16,7 @@ Running Mode | Loop | Once
 * IDE : **Visual Studio 2019** 
 * Programming language : **C#**
 ## Application
-Process A  
+*Process A*  
  ```C#
   ProcessCommunication.MemoryMapped Server = new ProcessCommunication.MemoryMapped("TEST", 512, 512);
             int receiveCount = 0;
@@ -46,7 +46,7 @@ Process A
                 };
             Server.ServerCreate(WriteEvent, RecivedEvent);
  ```
-Process B  
+*Process B*  
  ```C#
  ProcessCommunication.MemoryMapped Client = new ProcessCommunication.MemoryMapped("TEST", 512, 512);
             Action<byte[]> RecivedEvent =
